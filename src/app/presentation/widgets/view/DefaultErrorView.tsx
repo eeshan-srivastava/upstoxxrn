@@ -75,7 +75,7 @@ const styles = StyleSheet.create({
         flexDirection: 'column',
         flex: 1,
         alignItems: 'center',
-        backgroundColor: colorCode.black,
+        backgroundColor: colorCode.white,
     },
     container1: {
         width: normDimens.DIMEN_260,

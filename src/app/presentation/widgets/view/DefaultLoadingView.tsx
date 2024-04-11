@@ -17,7 +17,7 @@ const DefaultLoadingView = (props: Props) => {
         <View style={[styles.conatiner, style]}>
             <View style={styles.container1}>
                 <ActivityIndicator size="large" color={colorCode.primary} style={styles.container2} />
-                <TextView style={{ color: colorCode.blue }}>{message}</TextView>
+                <TextView style={{ color: colorCode.primary }}>{message}</TextView>
             </View>
         </View>
     );
@@ -29,7 +29,7 @@ const styles = StyleSheet.create({
     conatiner: {
         alignItems: 'center',
         justifyContent: 'center',
-        backgroundColor: colorCode.black,
+        backgroundColor: colorCode.white,
         position: 'absolute',
         flex: 1,
         width: normDimens.SCREEN_WIDTH,

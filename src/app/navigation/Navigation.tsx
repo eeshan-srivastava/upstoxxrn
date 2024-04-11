@@ -22,7 +22,7 @@ const Navigation = () => {
                         colorCode: colorCode.black,
                         opacityPercent: 100,
                     }),
-                    statusBarStyle: 'light',
+                    // statusBarStyle: 'light',
                     statusBarAnimation: 'fade',
                 }}>
                 <ReactNavStack.Screen name={NavigationRoutes.main} component={Main} />
